@@ -4,7 +4,6 @@ import Footer from "./components/Footer";
 import NotFound from "./pages/NotFound";
 import About from "./pages/About";
 import UserList from "./pages/UserList";
-import Notes from "./pages/Notes";
 import {
   BrowserRouter as Router,
   Routes,
@@ -26,7 +25,6 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="/users" element={<UserList />} />
               <Route path="/users/:id" element={<UserDetails />} />
-              <Route path="/notes" element={<Notes />} />
               <Route path="*" element={<NotFound />} />
             </Route>
           </Routes>

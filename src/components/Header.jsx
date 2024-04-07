@@ -1,11 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import {
-  BsHouseFill,
-  BsPersonHearts,
-  BsCardChecklist,
-  BsHeartHalf,
-} from "react-icons/bs";
+import { BsHouseFill, BsPersonHearts, BsHeartHalf } from "react-icons/bs";
 import Logo from "./Logo";
 
 const Header = () => {
@@ -45,12 +40,6 @@ const Header = () => {
                 <NavLink className={isActiveNavLink} to={"/users"}>
                   <BsPersonHearts className="me-2 fs-5" />
                   Users
-                </NavLink>
-              </li>
-              <li className="nav-item px-md-1">
-                <NavLink className={isActiveNavLink} to={"/notes"}>
-                  <BsCardChecklist className="me-2 fs-5" />
-                  Notes
                 </NavLink>
               </li>
               <li className="nav-item px-md-1">

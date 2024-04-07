@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import reactSvg from './../../public/logo.svg';
+import reactSvg from '/logo.svg';
 
 const Logo = ({ height, classNames }) => {
   return (
