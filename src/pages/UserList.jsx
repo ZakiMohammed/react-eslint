@@ -12,11 +12,11 @@ const UserList = () => {
     const fetchData = async () => {
       try {
         const response = await UserService.getAll();
-        setUsers(response);
-      } catch (error) {
-        setUsers([]);
-      }
-    };
+      setUsers(response);
+    } catch (error) {
+      setUsers([]);
+    }
+  };
 
     fetchData();
   }, []);

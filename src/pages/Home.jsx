@@ -8,7 +8,7 @@ const Home = () => {
       <div className="py-5 px-4 bg-dark-subtle rounded-4">
         <h1 className="mb-4">
           <Logo height={"60px"} />
-          React ESLint
+          React ESLint - Action
         </h1>
         <p className="lead">
           React ESLint is a React application that is built to demonstrate the
