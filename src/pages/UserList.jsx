@@ -11,7 +11,6 @@ const UserList = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        debugger;
         const response = await UserService.getAll();
       setUsers(response);
     } catch (error) {

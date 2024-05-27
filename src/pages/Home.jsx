@@ -3,7 +3,6 @@ import { NavLink } from "react-router-dom";
 import { BsInfoCircle } from "react-icons/bs";
 
 const Home = () => {
-  debugger;
   return (
     <>
       <div className="py-5 px-4 bg-dark-subtle rounded-4">
